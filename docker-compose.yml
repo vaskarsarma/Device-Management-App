@@ -1,0 +1,25 @@
+version: "2.3"
+services:
+
+  device-server:
+    extends:
+      file: docker-compose.base.yml
+      service: device-server
+    container_name: device-server
+    build:
+      context: ./device-server
+      dockerfile: Dockerfile
+    image: vaskar/device-server
+    ports:
+      - "8888:8888"
+  device-client:
+    extends:
+      file: docker-compose.base.yml
+      service: device-client  
+    container_name: device-client
+    build:
+      context: ./device-client
+      dockerfile: Dockerfile
+    image: vaskar/device-client
+    ports:
+      - "3000:80"
