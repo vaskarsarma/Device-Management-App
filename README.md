@@ -10,8 +10,8 @@ There are two parts
   - React JS
 
 Steps to run the applications
-- Close this git repo 
-- Go to docker-compose.base.yml 
+- Clone the git repo 
+- Go to Device-Management-App/docker-compose.base.yml 
   - update DBCONSTRING (mongo db connection string .e.g. mongodb+srv://XXXXXX:YYYYYYYYY@AAAAAA.u4d65.mongodb.net/<DBNAME>?retryWrites=true&w=majority)
 - Docker should be up and working 
 - Open any Command Prompt , go to the folder and 
