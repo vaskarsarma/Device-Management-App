@@ -12,9 +12,9 @@ const DevicesList = () => {
   const handleRemoveDevice = (_id) => {
     const deviceId = _id;
     deleteDevice(_id).then((_) => {
-      delDeviceTemperatureStats(_.msg._id).then((results) => {
+      //delDeviceTemperatureStats(_.msg._id).then((results) => {
         setDevices(devices.filter((device) => device._id !== deviceId));
-      });
+      //});
     });
   };
 

@@ -44,7 +44,8 @@ COPY .env .
 RUN apk add --no-cache bash
 
 # Make our shell script executable
-RUN chmod +x env.sh
+# Fix /bin/bash^M: bad interpreter: No such file or directory 
+RUN chmod +x env.sh && sed -i -e 's/\r$//' env.sh
 
 # Start Nginx server
 # CMD ["nginx", "-g", "daemon off;"]
