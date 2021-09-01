@@ -17,6 +17,7 @@ Steps to run the applications
 - Open any Command Prompt , go to the folder and 
   - enter docker-compose build
   - enter docker-compose up
+  - Open any browser and run the application entering http://localhost:3000
   
   
   
