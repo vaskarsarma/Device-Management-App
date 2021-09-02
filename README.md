@@ -21,7 +21,7 @@ Steps to run the applications
   - Open any Command Prompt , go to the folder and 
   - enter docker-compose build
   - enter docker-compose up
-- Open any browser and run the application entering http://localhost:3000
+- Open any browser and run the application entering http://localhost:5000 (You can change updating the docker-compose.yml file)
 - As per existing config API will run on port 8888.
 
 API Details
