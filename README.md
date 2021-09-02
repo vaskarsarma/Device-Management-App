@@ -47,3 +47,6 @@ Nav-Links
 NO-refresh
 - After add device/update device/delete device/capturing temperature does not require to refresh the page manually. 
 - Socket.IO will take care of the auto update on UI.
+  
+Event queue
+- RabbitMQ implementation is not complete
