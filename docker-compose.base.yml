@@ -3,7 +3,7 @@ services:
   device-server:
     environment:
       PORT: '8888'
-      ALLOWEDDOMAIN: 'http://localhost:3000,http://localhost:8888'
+      ALLOWEDDOMAIN: 'http://localhost:5000,http://localhost:8888'
       DBCONSTRING: ''
   device-client:
     environment:
