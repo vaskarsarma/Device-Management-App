@@ -1,5 +1,5 @@
 # Device-Management-App
-Application is build using Node/React/Mongo and Socket.IO
+SPA application is build using Node/React/Mongo and Socket.IO
 
 There are two parts 
 - API Layer (Device-Server)
@@ -43,3 +43,7 @@ Nav-Links
   - Display device name with MAX & MIN transaction count for a duration
 - Latest Transactions
   - Render top 10 transaction sort by date&time 
+  
+NO-refresh
+- After add device/update device/delete device/capturing temperature does not require to refresh the page manually. 
+- Socket.IO will take care of the auto update on UI.
