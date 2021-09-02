@@ -44,4 +44,4 @@ Steps to run the applications
       - Transactions Stats-(Max/Min)
         >> Display device name with MAX & MIN transaction count for a duration
       - Latest Transactions
-        >> Render top 10 transaction sort by date&time
+        >> Render top 10 transaction sort by date&time 
